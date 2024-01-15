@@ -142,7 +142,7 @@ ACDS_VERSION := 18.1
 ELF := lab1_elf.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS += ../trigger.c
+C_SRCS += ../switch.c
 CXX_SRCS :=
 ASM_SRCS :=
 
