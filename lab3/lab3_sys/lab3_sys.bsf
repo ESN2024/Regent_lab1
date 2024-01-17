@@ -1,0 +1,101 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 336 280)
+	(text "lab3_sys" (rect 142 -1 178 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 264 20 276)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 128 72)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 141 82 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 128 152)(line_width 1))
+	)
+	(port
+		(pt 0 248)
+		(input)
+		(text "pio_1_btn_export" (rect 0 0 68 12)(font "Arial" (font_size 8)))
+		(text "pio_1_btn_export" (rect 4 237 100 248)(font "Arial" (font_size 8)))
+		(line (pt 0 248)(pt 128 248)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "pio_0_seg_export[11..0]" (rect 0 0 94 12)(font "Arial" (font_size 8)))
+		(text "pio_0_seg_export[11..0]" (rect 4 101 142 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 128 112)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(bidir)
+		(text "i2c_scl_pad_io" (rect 0 0 59 12)(font "Arial" (font_size 8)))
+		(text "i2c_scl_pad_io" (rect 4 181 88 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 128 192)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(bidir)
+		(text "i2c_sda_pad_io" (rect 0 0 62 12)(font "Arial" (font_size 8)))
+		(text "i2c_sda_pad_io" (rect 4 197 88 208)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 128 208)(line_width 1))
+	)
+	(drawing
+		(text "clk" (rect 113 43 244 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 133 67 284 144)(font "Arial" (color 0 0 0)))
+		(text "pio_0_seg" (rect 68 83 190 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 107 302 224)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 99 123 228 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 133 147 308 304)(font "Arial" (color 0 0 0)))
+		(text "i2c" (rect 113 163 244 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "scl_pad_io" (rect 133 187 326 384)(font "Arial" (color 0 0 0)))
+		(text "sda_pad_io" (rect 133 203 326 416)(font "Arial" (color 0 0 0)))
+		(text "pio_1_btn" (rect 73 219 200 451)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 243 302 496)(font "Arial" (color 0 0 0)))
+		(text " system " (rect 301 264 650 538)(font "Arial" ))
+		(line (pt 128 32)(pt 208 32)(line_width 1))
+		(line (pt 208 32)(pt 208 264)(line_width 1))
+		(line (pt 128 264)(pt 208 264)(line_width 1))
+		(line (pt 128 32)(pt 128 264)(line_width 1))
+		(line (pt 129 52)(pt 129 76)(line_width 1))
+		(line (pt 130 52)(pt 130 76)(line_width 1))
+		(line (pt 129 92)(pt 129 116)(line_width 1))
+		(line (pt 130 92)(pt 130 116)(line_width 1))
+		(line (pt 129 132)(pt 129 156)(line_width 1))
+		(line (pt 130 132)(pt 130 156)(line_width 1))
+		(line (pt 129 172)(pt 129 212)(line_width 1))
+		(line (pt 130 172)(pt 130 212)(line_width 1))
+		(line (pt 129 228)(pt 129 252)(line_width 1))
+		(line (pt 130 228)(pt 130 252)(line_width 1))
+		(line (pt 0 0)(pt 336 0)(line_width 1))
+		(line (pt 336 0)(pt 336 280)(line_width 1))
+		(line (pt 0 280)(pt 336 280)(line_width 1))
+		(line (pt 0 0)(pt 0 280)(line_width 1))
+	)
+)
