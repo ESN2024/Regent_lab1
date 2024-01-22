@@ -11,7 +11,7 @@ entity lab3_sys is
 		clk_clk          : in    std_logic                     := '0'; --       clk.clk
 		i2c_scl_pad_io   : inout std_logic                     := '0'; --       i2c.scl_pad_io
 		i2c_sda_pad_io   : inout std_logic                     := '0'; --          .sda_pad_io
-		pio_0_seg_export : out   std_logic_vector(11 downto 0);        -- pio_0_seg.export
+		pio_0_seg_export : out   std_logic_vector(23 downto 0);        -- pio_0_seg.export
 		pio_1_btn_export : in    std_logic                     := '0'; -- pio_1_btn.export
 		reset_reset_n    : in    std_logic                     := '0'  --     reset.reset_n
 	);
@@ -105,7 +105,7 @@ architecture rtl of lab3_sys is
 			writedata  : in  std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
 			chipselect : in  std_logic                     := 'X';             -- chipselect
 			readdata   : out std_logic_vector(31 downto 0);                    -- readdata
-			out_port   : out std_logic_vector(11 downto 0)                     -- export
+			out_port   : out std_logic_vector(23 downto 0)                     -- export
 		);
 	end component lab3_sys_pio_0;
 

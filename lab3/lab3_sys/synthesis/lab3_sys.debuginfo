@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="lab3_sys" kind="system" version="18.1" fabric="QSYS">
  <!-- Format version 18.1 646 (Future versions may contain additional information.) -->
- <!-- 2024.01.17.09:54:55 -->
+ <!-- 2024.01.22.08:18:22 -->
  <!-- A collection of modules and connections -->
  <parameter name="clockCrossingAdapter">
   <type>com.altera.sopcmodel.ensemble.EClockAdapter</type>
@@ -53,7 +53,7 @@
  </parameter>
  <parameter name="generationId">
   <type>int</type>
-  <value>1705481675</value>
+  <value>1705907881</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>true</visible>
@@ -5942,7 +5942,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.DATA_WIDTH</name>
-   <value>12</value>
+   <value>24</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.DO_TEST_BENCH_WIRING</name>
@@ -5994,7 +5994,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.altr,gpio-bank-width</name>
-   <value>12</value>
+   <value>24</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.resetvalue</name>
@@ -6086,7 +6086,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="width">
    <type>int</type>
-   <value>12</value>
+   <value>24</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -6694,7 +6694,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>out_port</name>
     <direction>Output</direction>
-    <width>12</width>
+    <width>24</width>
     <role>export</role>
    </port>
   </interface>
@@ -14344,5 +14344,5 @@ parameters are a RESULT of the module parameters. -->
   <version>18.1</version>
  </plugin>
  <reportVersion>18.1 646</reportVersion>
- <uniqueIdentifier>0A00270000070000018D16A12C0A</uniqueIdentifier>
+ <uniqueIdentifier>0A00270000070000018D300890CE</uniqueIdentifier>
 </EnsembleReport>

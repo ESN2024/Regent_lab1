@@ -142,7 +142,7 @@ ACDS_VERSION := 18.1
 ELF := lab3_elf.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS += ../timer.c
+C_SRCS += ../main.c
 CXX_SRCS :=
 ASM_SRCS :=
 

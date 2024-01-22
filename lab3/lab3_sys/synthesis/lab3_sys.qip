@@ -2,7 +2,7 @@ set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name IP_TOOL_NAME 
 set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name IP_TOOL_VERSION "18.1"
 set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "lab3_sys" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../lab3_sys.sopcinfo"]
-set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name SLD_INFO "QSYS_NAME lab3_sys HAS_SOPCINFO 1 GENERATION_ID 1705481675"
+set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name SLD_INFO "QSYS_NAME lab3_sys HAS_SOPCINFO 1 GENERATION_ID 1705907881"
 set_global_assignment -library "lab3_sys" -name MISC_FILE [file join $::quartus(qip_path) "../lab3_sys.cmp"]
 set_global_assignment -library "lab3_sys" -name SLD_FILE [file join $::quartus(qip_path) "lab3_sys.regmap"]
 set_global_assignment -library "lab3_sys" -name SLD_FILE [file join $::quartus(qip_path) "lab3_sys.debuginfo"]
@@ -16,7 +16,7 @@ set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name IP_COMPONENT_
 set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name IP_COMPONENT_REPORT_HIERARCHY "On"
 set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name IP_COMPONENT_INTERNAL "Off"
 set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name IP_COMPONENT_VERSION "MS4w"
-set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTcwNTQ4MTY3NQ==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTcwNTkwNzg4MQ==::QXV0byBHRU5FUkFUSU9OX0lE"
 set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::TUFYIDEw::QXV0byBERVZJQ0VfRkFNSUxZ"
 set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::MTBNNTBEQUY0ODRDN0c=::QXV0byBERVZJQ0U="
 set_global_assignment -entity "lab3_sys" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Nw==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
@@ -675,7 +675,7 @@ set_global_assignment -entity "lab3_sys_pio_0" -library "lab3_sys" -name IP_COMP
 set_global_assignment -entity "lab3_sys_pio_0" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "Yml0TW9kaWZ5aW5nT3V0UmVn::ZmFsc2U=::RW5hYmxlIGluZGl2aWR1YWwgYml0IHNldHRpbmcvY2xlYXJpbmc="
 set_global_assignment -entity "lab3_sys_pio_0" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "ZGlyZWN0aW9u::T3V0cHV0::RGlyZWN0aW9u"
 set_global_assignment -entity "lab3_sys_pio_0" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "cmVzZXRWYWx1ZQ==::MA==::T3V0cHV0IFBvcnQgUmVzZXQgVmFsdWU="
-set_global_assignment -entity "lab3_sys_pio_0" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "d2lkdGg=::MTI=::V2lkdGggKDEtMzIgYml0cyk="
+set_global_assignment -entity "lab3_sys_pio_0" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "d2lkdGg=::MjQ=::V2lkdGggKDEtMzIgYml0cyk="
 set_global_assignment -entity "lab3_sys_pio_0" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "Y2xvY2tSYXRl::NTAwMDAwMDA=::Y2xvY2tSYXRl"
 set_global_assignment -entity "lab3_sys_pio_0" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9oYXNfdHJp::ZmFsc2U=::ZGVyaXZlZF9oYXNfdHJp"
 set_global_assignment -entity "lab3_sys_pio_0" -library "lab3_sys" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9oYXNfb3V0::dHJ1ZQ==::ZGVyaXZlZF9oYXNfb3V0"
