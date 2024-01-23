@@ -12,10 +12,10 @@ After having made the analysis and synthesis, we can connect the signals to the 
 ![image](https://github.com/ESN2024/Regent_lab1/assets/131348400/3e2d57d8-f64c-43ec-8abf-42ce837a53c0)
 
 I've made 4 differents scripts: main.c, chenillard.c, trigger.c, switch.c
-The first one just lights the LED; 
-chenillard.c turn the lights on, one after the other and repeat it in a while loop;
-trigger.c, here I used an interrupt function using a push button in order to trigger the "chenillard";
-switch.c, as before I use an interrupt function in order to change the speed of the "chenillard";
+The first one just lights up a LED.
+chenillard.c turn the lights on, one after the other and repeat it in a while loop.
+trigger.c, here I used an interrupt function using a push button in order to trigger the "chenillard".
+switch.c, as before I use an interrupt function in order to change the speed of the "chenillard".
 
 Everything work as attempted !!!
 
